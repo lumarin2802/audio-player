@@ -77,7 +77,7 @@ const App = () => {
   return (<div className="container">
     <div id="interface" className="interfaceClass">
       <div id="header" className="headerClass text-light text-center m-auto">
-        <h5 className="p-2">BreatheCode Orange 8bits Audio Player</h5>
+        <h5 className="p-2">Audio Player</h5>
       </div>
 
 
