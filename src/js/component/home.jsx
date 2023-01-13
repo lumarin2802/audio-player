@@ -8,11 +8,10 @@ const Home = () => {
     const handleClick = (event, key) => {
         console.log(event.target);
         console.log(key);
-        setUrlDir("https://assets.breatheco.de/apis/sound" + key);
+        setUrlDir("https://assets.breatheco.de/apis/sound/" + key);
       };
-console.log(urlDir)
 
-    
+ console.log(urlDir)
 
     useEffect(() => {
 
@@ -43,7 +42,9 @@ console.log(urlDir)
             </audio>
           </div>
 
-
+<div>
+    <p></p>
+</div>
 
             <div id="controlBar" className="m-3 d-flex justify-content-center">
                 <button className="roundButton m-1"><i className="fa fa-backward"></i></button>
